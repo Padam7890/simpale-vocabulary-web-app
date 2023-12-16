@@ -1,0 +1,58 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.options button {
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+
+}
+
+.nextbutton{
+    border: none;
+    background-color: green;
+    border-radius: 30px;
+    margin:10px;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+}
+.nextbutton::after{
+    content: "->>";
+}
+
+.timer{
+
+    display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.timer p{
+    margin-left: 50px;
+}
+
+.score{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+i{
+ cursor: pointer;
+ color: red;
+}
